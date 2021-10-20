@@ -1,0 +1,30 @@
+body {
+  margin-top: 150px;
+  margin-bottom: 0px;
+ }
+
+nav {
+  background-color: $maroonColor !important;
+  .navbar-header {
+    width: 100%;
+    button, .navbar-brand {
+      transition: opacity 0.15s;
+      background-color: $maroonColor;
+    }
+    button {
+      margin-right: 0;
+    }
+    button:hover, .navbar-brand:hover {
+      opacity: 0.8;
+    }
+
+  }
+
+}
+
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+  border: none;
+  a {
+    color: $maroonColor !important;
+  }
+}
