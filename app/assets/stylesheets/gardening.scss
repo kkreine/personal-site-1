@@ -11,13 +11,30 @@
   background-color: #163a1f;
 }
 
-.container:hover .overlay {
+.container-fluid:hover .overlay {
   opacity: .8;
 }
 
 .container {
   position: relative;
   width: 100%;
+}
+
+#self-portrait {
+  .row {
+    display: flex;
+    flex-direction: left;
+
+    .left {
+      width: 35%;
+      padding-right: 20px;
+    }
+    
+    .right {
+      width: 65%;
+      padding-top: 10px;
+    }
+  }
 }
 
 .text {

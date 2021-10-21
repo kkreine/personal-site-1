@@ -9,10 +9,13 @@ nav {
     width: 100%;
     button, .navbar-brand {
       transition: opacity 0.15s;
-      background-color: $maroonColor;
+      background-color: white;
+      border-radius: 100%;
+      width: 4%;
+
     }
-    button {
-      margin-right: 0;
+    .button {
+      transition-duration: 0.4s;
     }
     button:hover, .navbar-brand:hover {
       opacity: 0.8;
@@ -20,6 +23,29 @@ nav {
 
   }
 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #163a1f;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+img[src="github.png"] {
+  padding-top: 15px;
+  width:100%; 
+  height:auto;
 }
 
 .navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {

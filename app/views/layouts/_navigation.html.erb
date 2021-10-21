@@ -1,17 +1,21 @@
-
+<%= stylesheet_link_tag '/partials/layout/navigation.css' %>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" style="color:#ad5d50">
   <div class="container-fluid">
     <div class="navbar-header">
       <img src="/gator-pic.png" alt="gator">
-      <a href="http://github.com/kkreine" class="button btn-secondary" style="text-align:right;"><small>Follow me on</small> Github</a>
+      <button type="button">
+        <a href="http://github.com/kkreine">
+            <img src="github.png" alt="gator">
+          </div>
+    </div>
+        </a>
+      </button>
     </div>
     <ul class="nav navbar-nav">
       <li><%= link_to 'home', root_path, class: 'navbar-brand' %></li>
-      <li><%= link_to 'resume', resume_path %></</li>
+      <li><%= link_to 'experience', resume_path %></</li>
       <li><%= link_to 'education', education_path %></li>
-      <li><%= link_to 'gardening', gardening_path %></li>
-      <li><%= link_to 'contact', contact_path %></li>      
       <li><%= link_to 'about', about_path %></li>    
     </ul>
   </div>

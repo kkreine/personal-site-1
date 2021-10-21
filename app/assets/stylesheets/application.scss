@@ -25,9 +25,13 @@ body {
   height:auto;
 }
 
+
+
 img[src="rain-barrel.jpg"] {
   width:60%; 
-  height:auto;
+  height: auto;
+  border-radius: 15px;
+  text-align: center;
 }
 
 img[src="loyola-logo.png"] {
@@ -35,10 +39,25 @@ img[src="loyola-logo.png"] {
   height:auto;
 }
 
+img[src="tts-logo.png"] {
+  padding-top: 15px;
+  width:80%; 
+  height:auto;
+}
+
+img[src="lsmsa-logo.jpg"] {
+  padding-top: 15px;
+  padding-left: 20px;
+  width:85%; 
+  height:auto;
+}
+
 img[src="home-photo-copy.jpg"] {
   opacity: 0.85;
   border-radius: 8px;
 }
+
+
 
 h1 {
   color: $darkBlue;
@@ -55,6 +74,14 @@ h1 {
   font-size: 150%;
   border: none;
 }
+
+#position {
+  text-align: right;
+  font-size: 110%;
+  border: none;
+}
+
+
 
 .row {
   display: flex;
@@ -87,4 +114,11 @@ h1 {
   padding: 20px;
   font-size: 20px;
   text-align: center;
+}
+
+#other-courses {
+  .grid-item {
+    border: 5px solid #875d66;
+  }
+
 }

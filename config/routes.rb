@@ -5,7 +5,5 @@ Rails.application.routes.draw do
   get 'resume', to: 'pages#resume'
   get 'about', to: 'pages#about'
   get 'education', to: 'pages#education'
-  get 'gardening', to: 'pages#gardening'
-  get 'contact', to: 'pages#contact'
 
 end
