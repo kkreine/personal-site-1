@@ -1,17 +1,4 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
 
- */
 // Bootstrap
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -33,18 +20,18 @@ body {
   flex-direction: row;
 }
 
-img[src="broccoli.jpg"] {
+#plant-pic {
   width:100%; 
   height:auto;
 }
 
-img[src="squash.jpg"] {
-  width:100%; 
+img[src="rain-barrel.jpg"] {
+  width:60%; 
   height:auto;
 }
 
-img[src="watermelon.jpg"] {
-  width:100%; 
+img[src="loyola-logo.png"] {
+  width:60%; 
   height:auto;
 }
 
@@ -54,6 +41,50 @@ img[src="home-photo-copy.jpg"] {
 }
 
 h1 {
-  color: $nameColor;
+  color: $darkBlue;
+  text-align: center;
+}
+
+#school {
+  text-align:left;
+  color: $maroonColor;
+}
+
+#orgs {
+  text-align: right;
+  font-size: 150%;
+  border: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: left;
+  .left {
+    width: 20%
+  }
+  
+  .right {
+    width: 80%;
+    padding-top: 10px;
+  }
+}
+
+// Courses grid
+
+.grid-container {
+  width: 50%;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  justify-content: center;
+  margin: auto;
+}
+
+.grid-item {
+  border: 1px solid $darkGreen;
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 20px;
   text-align: center;
 }

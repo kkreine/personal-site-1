@@ -1,0 +1,14 @@
+img[src="broccoli.jpg"] {
+  width:100%; 
+  height:auto;
+}
+
+img[src="squash.jpg"] {
+  width:100%; 
+  height:auto;
+}
+
+img[src="watermelon.jpg"] {
+  width:100%; 
+  height:auto;
+}
