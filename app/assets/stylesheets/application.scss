@@ -74,7 +74,7 @@ h1 {
 .grid-container {
   width: 50%;
   display: grid;
-  grid-column-gap: 50px;
+  grid-column-gap: 0;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
   justify-content: center;
@@ -82,7 +82,7 @@ h1 {
 }
 
 .grid-item {
-  border: 1px solid $darkGreen;
+  border: 5px solid #add8e6;
   border-radius: 25px;
   padding: 20px;
   font-size: 20px;

@@ -12,3 +12,5 @@ img[src="watermelon.jpg"] {
   width:100%; 
   height:auto;
 }
+
+    <%= #javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
