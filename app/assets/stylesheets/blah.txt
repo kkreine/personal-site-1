@@ -14,3 +14,201 @@ img[src="watermelon.jpg"] {
 }
 
     <%= #javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    -----
+
+
+
+    previous resume page: 
+
+    <div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Online Store and Social Media Assistant</h3>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">Three Divas Gift Shop</li>
+        <li class="list-group-item" id="position">Slidell, LA</li>
+        <li class="list-group-item" id="position">November 2019 - January 2020</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <li><h4>Built a website through Shopify that increased sales for the business and expanded sales to nationwide</h4></li>
+  </ul>
+  <div class="grid-skills" style="justify-content: center;">
+    <div class="grid-item-s"><h3>creativity</h3></div>
+    <div class="grid-item-s"><h3>remote work skills</h3></div>
+    <div class="grid-item-s"><h3>teamwork</h3></div>
+    <div class="grid-item-s"><h3>item</h3></div>
+  </div>
+</div>
+<hr>
+
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Childcare Provider & Tutor</h3>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">Families / St. Catherine of Siena School</li>
+        <li class="list-group-item" id="position">Greater New Orleans Area</li>
+        <li class="list-group-item" id="position">October 2018 - April 2021</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <li><h4>Assisted families and an elementary school for 15-25 hours per week while enrolled full-time in school</h4></li>
+    <li><h4>Aftercare teacher at St. Catherine of Siena for 1.5 years</h4></li>
+  </ul>
+  <div class="grid-skills" style="justify-content: center;">
+    <div class="grid-item-s"><h3>conflict resolution</h3></div>
+    <div class="grid-item-s"><h3>Management</h3></div>
+    <div class="grid-item-s"><h3>Teamwork</h3></div>
+    <div class="grid-item-s"><h3>item</h3></div>
+  </div>
+</div>
+
+<hr>
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Recruiting Assistant</h3>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">New York Life &NYLife Securities LLC</li>
+        <li class="list-group-item" id="position">New Orleans, LA</li>
+        <li class="list-group-item" id="position">May 2019 - August 2019</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <li><h4>As assistant to partner, increased the number of interviews and hires to exceed quota</h4></li>
+  </ul>
+  <div class="grid-skills" style="justify-content: center;">
+    <div class="grid-item-s"><h3>communication</h3></div>
+    <div class="grid-item-s"><h3>Management</h3></div>
+    <div class="grid-item-s"><h3>Teamwork</h3></div>
+    <div class="grid-item-s"><h3>item</h3></div>
+  </div>
+</div>
+<hr>
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Account Manager</h3>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">NOLA Events and Promotions</li>
+        <li class="list-group-item" id="position">New Orleans, LA</li>
+        <li class="list-group-item" id="position">April 2018 - September 2018</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <li><h4>Excellence in Leadership Award</h4></li>
+    <li><h4>Expanded company by hiring and training salespeople through daily meetings and field training</h4></li>
+  </ul>
+  <div class="grid-skills" style="justify-content: center;">
+    <div class="grid-item-s"><h3>leadership</h3></div>
+    <div class="grid-item-s"><h3>management</h3></div>
+    <div class="grid-item-s"><h3>teamwork</h3></div>
+    <div class="grid-item-s"><h3>communication</h3></div>
+  </div>
+</div>
+
+<hr>
+
+<h2 style="text-align:center;"><i>volunteering</i></h2>
+
+</div>
+
+
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Green Light New Orleans</h3>
+      <a href="https://www.greenlightneworleans.org/index.html" class="btn btn-info" role="button">get involved!</a>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">Volunteer Rain Barrel Prep</li>
+        <li class="list-group-item" id="position">April 2021 - Present</li>
+      </ul>
+
+    </div>
+  </div>
+  <ul>
+    <h4>Mission: Providing sustainable solutions to individual homes and encouraging collective action to create a more resilient community.</h4>
+  </ul>
+  <img src="rain-barrel.jpg" class="w-100 shadow-1-strong rounded mb-4" style="justify-content:center;">
+</div>
+
+<hr>
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Anna’s Place</h3>
+      <a href="https://stannanola.org/annas-place/" class="btn btn-info" role="button">get involved!</a>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">St. Catherine Episcopal Church</li>
+        <li class="list-group-item" id="position">New Orleans, LA</li>
+        <li class="list-group-item" id="position">September 2018 - May 2019</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <h4>Mission: To promote healing and wholeness of body, mind and spirit in the Tremé/7th Ward and Greater New Orleans community by offering academic, cultural, and arts enrichment; holistic health care; and healthy lifestyle education.</h4>
+    <li><h4>Assisted in the program's functions through tutoring, meal prep, and class aid/supervision</h4></li>
+  </ul>
+</div>
+<hr>
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Boys Hope Girls Hope</h3>
+      <a href="https://bhghnola.org" class="btn btn-info" role="button">get involved!</a>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">Tutor</li>
+        <li class="list-group-item" id="position">New Orleans, LA</li>
+        <li class="list-group-item" id="position">October 2018 - September 2019</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <h4>Mission: To promote healing and wholeness of body, mind and spirit in the Tremé/7th Ward and Greater New Orleans community by offering academic, cultural, and arts enrichment; holistic health care; and healthy lifestyle education.</h4>
+    <li><h4>Assisted in the program's functions through tutoring, meal prep, and class aid/supervision</h4></li>
+  </ul>
+</div>
+<hr>
+
+<div class="container" style="width:55%;">
+  <div class="row">
+    <div class="column left">
+      <h3>Alpha Omicron Pi Fraternity</h3>
+    </div>
+    <div class="column right">
+      <ul class="list-group">
+        <li class="list-group-item" id="position">Property Manager</li>
+        <li class="list-group-item" id="position">Chicago, IL</li>
+        <li class="list-group-item" id="position">October 2017 - April 2018</li>
+      </ul>
+    </div>
+  </div>
+  <ul>
+    <li><h4>Managed the assets of the fraternity used for meetings and events</h4></li>
+  </ul>
+</div>
+
+
+</div>
+
+
