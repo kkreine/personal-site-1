@@ -162,15 +162,16 @@ h1 {
 }
 
 .grid-item-s {
-  border: none;
+  border: 3px solid $maroonColor;
+  background-color: #f2e1e1;
   border-radius: 10px;
-  padding: 3px;
+  padding: 4px;
   padding-top: none;
   font-size: 18px;
   text-align: center;
   font-family: cursive;
   height: 80%;
-  color: #43b4d9;
+  color: $maroonColor;
 }
 
 #other-courses {
