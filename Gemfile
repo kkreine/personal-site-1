@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'nested_scaffold'
 
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
